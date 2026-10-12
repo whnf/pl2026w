@@ -1,3 +1,5 @@
+mod lab01;
+
 fn main() {
-    println!("Hello, world!");
+    lab01::run();
 }
