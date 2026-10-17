@@ -9,7 +9,7 @@ paginate: true
 
 # Programming Languages
 
-### Lab 2 - Memory and ownership
+### Lab 2 — Ownership and structs
 
 Kacper Grabczak
 [kgrabczak@swps.edu.pl](mailto:kgrabczak@swps.edu.pl)

@@ -1,4 +1,4 @@
-# Lab 2 — Ownership, Borrowing and Structs
+# Lab 2 — Ownership and structs
 
 ---
 
@@ -64,10 +64,10 @@ fn main() {
     println!("first = {first}");
 }
 ```
-*Why is this dangerous? What could `push` do to the memory `first` points to?*
+_Why is this dangerous? What could `push` do to the memory `first` points to?_
 
 ```rust
-// (c) E0106: missing lifetime specifier — a dangling reference
+// (c) E0515: cannot return reference to local variable — a dangling reference
 fn make_greeting(name: &str) -> &String {
     let g = format!("Hello, {name}!");
     &g
@@ -113,7 +113,7 @@ Implement:
 
 1. `fn running_sum(values: &[i32]) -> Vec<i32>` — `[1, 2, 3, 4]` → `[1, 3, 6, 10]`.
 2. `fn double_in_place(values: &mut [i32])` — multiply every element by 2. Use `for x in values.iter_mut()` (or `for x in values`) and `*x *= 2`.
-3. `fn remove_duplicates(values: &mut Vec<i32>)` — keep the first occurrence of each value and preserve the order: `[3, 1, 3, 2, 1]` → `[3, 1, 2]`. *(Hint: build a new vector and check `contains`, then assign it back with `*values = result`. Also look at `retain`.)*
+3. `fn remove_duplicates(values: &mut Vec<i32>)` — keep the first occurrence of each value and preserve the order: `[3, 1, 3, 2, 1]` → `[3, 1, 2]`. _(Hint: build a new vector and check `contains`, then assign it back with `*values = result`. Also look at `retain`.)_
 4. `fn largest(values: &[i32]) -> Option<i32>` — `None` for an empty slice.
 
 ---
@@ -126,7 +126,7 @@ Implement:
    struct Point { x: f64, y: f64 }
    ```
    with an associated function `Point::new(x, y)`, a constant `Point::ORIGIN`, and a method `fn distance(&self, other: &Point) -> f64`.
-   *What does each `derive` give you? Remove `Copy` and see what breaks.*
+   _What does each `derive` give you? Remove `Copy` and see what breaks._
 2. Define
    ```rust
    struct Rectangle { top_left: Point, width: f64, height: f64 }

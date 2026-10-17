@@ -1,4 +1,4 @@
-//! Lab 1 — First Steps in Rust (exercises/lab01-rust-basics-exercises.md)
+//! Lab 1 — Rust basics (exercises/lab01-rust-basics.md)
 
 // 2.5: a `const` must have an explicit type, is evaluated at compile time,
 // can live outside functions, and is inlined wherever it is used.
@@ -23,7 +23,7 @@ fn task1() {
     let pi = std::f64::consts::PI;
     println!("Pi to 3 places: {pi:.3}");
 
-    // `>` right-aligns, `<` left-aligns, `^` centres, all within a width of 8.
+    // `>` right-aligns, `<` left-aligns, `^` centers, all within a width of 8.
     println!("|{:>8}|{:<8}|{:^8}|", "right", "left", "center");
 
     let triple = (1, "two", 3.0);

@@ -1,8 +1,4 @@
-# Lab 1 — First Steps in Rust
-
-_Cargo · variables · types · functions · control flow_
-
-**Reference:** _The Rust Programming Language_ ("the Book"), chapters 1–3 — doc.rust-lang.org/book
+# Lab 1 — Rust basics
 
 ---
 

@@ -9,7 +9,7 @@ paginate: true
 
 # Programming Languages
 
-### Lab 1 - Rust basics
+### Lab 1 — Rust basics
 
 Kacper Grabczak
 [kgrabczak@swps.edu.pl](mailto:kgrabczak@swps.edu.pl)
