@@ -9,7 +9,7 @@ paginate: false
 
 # Programming Languages
 
-### Lab 3 - Enums and Option
+### Lab 3 — Enums and Option
 
 Kacper Grabczak
 [kgrabczak@swps.edu.pl](mailto:kgrabczak@swps.edu.pl)

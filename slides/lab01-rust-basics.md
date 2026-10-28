@@ -2,7 +2,7 @@
 marp: true
 theme: default
 size: 4:3
-paginate: true
+paginate: false
 ---
 
 <!-- _paginate: false -->
