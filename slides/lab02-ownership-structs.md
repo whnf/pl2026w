@@ -5,8 +5,6 @@ size: 4:3
 paginate: false
 ---
 
-<!-- _paginate: false -->
-
 # Programming Languages
 
 ### Lab 2 — Ownership and structs
@@ -112,11 +110,11 @@ Rejected at compile time.
 
 # Comparison
 
-| | Safe | No runtime | Frees at a known point |
-|---|---|---|---|
-| **C** | ✗ | ✓ | ✓ |
-| **GC** | ✓ | ✗ | ✗ |
-| **C++** | ✗ | ✓ | ✓ |
-| **Rust** | ✓ | ✓ | ✓ |
+|          | Safe | No runtime | Frees at a known point |
+| -------- | ---- | ---------- | ---------------------- |
+| **C**    | ✗    | ✓          | ✓                      |
+| **GC**   | ✓    | ✗          | ✗                      |
+| **C++**  | ✗    | ✓          | ✓                      |
+| **Rust** | ✓    | ✓          | ✓                      |
 
 The price in Rust: the borrow checker.

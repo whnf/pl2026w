@@ -5,8 +5,6 @@ size: 4:3
 paginate: false
 ---
 
-<!-- _paginate: false -->
-
 # Programming Languages
 
 ### Lab 1 — Rust basics

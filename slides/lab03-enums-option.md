@@ -5,8 +5,6 @@ size: 4:3
 paginate: false
 ---
 
-<!-- _paginate: false -->
-
 # Programming Languages
 
 ### Lab 3 — Enums and Option
